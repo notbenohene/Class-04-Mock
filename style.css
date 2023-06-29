@@ -1,0 +1,16 @@
+header {
+    background-color: limegreen;
+    width: 100%;
+    font-size: larger;
+    
+}
+
+body {
+    border-block: 50px solid rgb(126, 250, 128);
+text-align: center;
+background-image: linear-gradient(to bottom right, rgb(238, 146, 146), rgb(239, 239, 97));
+}
+figcaption {
+ width: 50%;
+ margin-left: 25%;  
+}
