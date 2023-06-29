@@ -9,19 +9,22 @@
 
 <div>
  
-<h2>Name A More Iconic Trio</h2>
-<script>
-    let greeting = 'Sup'; //start of program
-    document.write(greeting); //end of prg
-    let name = prompt("Yo");
-    document.write(greeting + name + !); //build function for receiving user input
-//did not function...
+<h2>Name A More Iconic Trio</h2> 
+<script> 
+    let welcome = '';
+    let question = 'Do you like good fruit? '; //start of program
+    let response = prompt(question);
+if (response === "Yes"){ //if condition/answer is "yes"
+    welcome = 'Well, you are in the right spot';
+}
+    document.write(welcome + "!"); //build function for receiving user input
+    
+if (response === "No"){ //if condition/answer is no
+    welcome2 = "That's weird. You are weird.";
+} 
+else if (welcome === "Well, this is a page about the best fruit: the mango!"){
 
-if (name === 'Ben') {
-    // if condition is true
-greeting = 'KEEP GOING ';
-} else if (name === 'Joe')
-
+} 
 </script>
 </header>
 </div>
@@ -42,10 +45,9 @@ img {width:400px ;}
 <img src="https://ipcdn.freshop.com/resize?url=https://images.freshop.com/2311443/46d468de3d92fff5e4472a7831917fd1_large.png&width=512&type=webp&quality=90" >
 <figcaption>The Ataulfo Mango, AKA the Honey Mango, originates from Mexico and is named after the individual who cultivated it, Ataulfo Morales Gordillo. The mango has little fiber, is sweet and slighlty sour depending on ripeness, and has a flattened oblong shape.</figcaption>
 </figure>
-</main>
+</main>      
 <p>Be sure to follow Know Your Mango on social media @knowyourmango !</p>
 <p>Email: getmangoed@gmail.com</p>
-
 </div>
 </body>
 
