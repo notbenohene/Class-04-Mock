@@ -18,10 +18,29 @@ let mango;
         mango = 'Sunset Mango '
     }
 
-    document.write(mango + dayOfWeek + '!')
+    document.write(mango + dayOfWeek + '!');
 
-        
+function askNumber() {
+  let number = prompt('Pick a number between 1 and 5.');
+  console.log(typeof(number));
   
+  while (!number){
+    number = prompt('Go ahead and enter that number.');
+  }
+  
+  alert('Here you go!');
+  return number;
+}
+
+let number = parseInt(askNumber());
+console.log(typeof(number));
+
+for (let i = 0; i < number; i++) {
+  console.log(i);
+  document.write('<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHpuejMycWpscTNsbnR2bWE0bG04NzI1bHlibmt0Mnl4d3o5N3Z6OCZlcD12MV9naWZzX3NlYXJjaCZjdD1z/Mfi6kHoONUMH2CQftr/giphy.gif">');
+}
+}
+
 //     if (militaryTime < 12) {
 //       document.write(mango + dayOfWeek + '!');
 //     } else if (militaryTime > 23) {
@@ -29,4 +48,4 @@ let mango;
 //     } else {
 //       document.write('It is ' + dayOfWeek + ' in the afternoon /evening');
 //     }
-  }
+  
